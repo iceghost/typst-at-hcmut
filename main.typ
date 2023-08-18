@@ -16,6 +16,11 @@
 #set document(title: m.at("tiêu đề"), author: m.at("sinh viên").map(s => s.at("tên")))
 #set text(font: fonts.at("text"), lang: "vi")
 #show raw: set text(font: fonts.at("monospace"))
+#show raw.where(block: true): set block(fill: gray.lighten(90%), width: 100%, inset: (x: 1em, y: 1em))
+#show link: it => {
+  set text(fill: blue)
+  underline(it)
+}
 
 #set heading(numbering: "1.1.1")
 #show heading: it => {
@@ -26,15 +31,4 @@
 #import "/components/latex.typ"
 #show "LaTeX": latex.LaTeX
 
-#{ include "/contents/01-bia.typ" }
-#pagebreak()
-#outline()
-#outline(title: "Danh mục hình ảnh", target: figure.where(kind: image))
-#outline(title: "Danh mục chương trình", target: figure.where(kind: raw))
-#pagebreak()
-#{ include "/contents/02-section-binh-thuong/00.typ" }
-#{ include "/contents/03-bang-bieu.typ" }
-#{ include "/contents/04-code.typ" }
-#{ include "/contents/05-chen-tai-lieu-tham-khao.typ" }
-#pagebreak()
-#bibliography("references.bib")
+#{ include "contents/00.typ" }
