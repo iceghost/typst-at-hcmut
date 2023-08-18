@@ -19,3 +19,12 @@ các bạn có thể mở file [main.pdf](main.pdf) để đọc.
 Để báo lỗi, hoặc đóng góp thêm cách mình có thể cải thiện template này,
 các bạn sử dụng tính năng [Discussion](https://github.com/iceghost/typst-at-hcmut/discussions)
 để tạo nguyện vọng nhé.
+
+## I used Typst in my report!
+
+Nếu bạn có báo cáo nào xài Typst và public được cho mọi người tham khảo,
+bạn có thể nhắn mình ghi vào đây nhé :)
+
+- https://github.com/dadn-dream-home/documents: Đồ án đa ngành của mình/iceghost.
+  Đồ án này mình là project đầu tiên mình viết bằng Typst,
+  nên có thể nó sẽ hơi khác template chút.
