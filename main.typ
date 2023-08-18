@@ -27,7 +27,11 @@
 
 #{ include "/contents/01-bia.typ" }
 #pagebreak()
-#{ include "/contents/02-section-binh-thuong.typ" }
+#outline()
+#outline(title: "Danh mục hình ảnh", target: figure.where(kind: image))
+#outline(title: "Danh mục chương trình", target: figure.where(kind: raw))
+#pagebreak()
+#{ include "/contents/02-section-binh-thuong/00.typ" }
 #{ include "/contents/03-bang-bieu.typ" }
 #{ include "/contents/04-code.typ" }
 #{ include "/contents/05-chen-tai-lieu-tham-khao.typ" }
