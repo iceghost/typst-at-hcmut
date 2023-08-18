@@ -13,6 +13,7 @@
 #let m = yaml("/metadata.yml")
 #let fonts = m.at("fonts")
 
+#set document(title: m.at("tiêu đề"), author: m.at("sinh viên").map(s => s.at("tên")))
 #set text(font: fonts.at("text"), lang: "vi")
 #show raw: set text(font: fonts.at("monospace"))
 
