@@ -1,0 +1,23 @@
+tiêu đề: >-
+  Phân tích ảnh hưởng của mạng xã hội
+  đến lối sống và tâm lý
+  của giới trẻ Việt Nam
+môn học:
+  tên: Kỹ năng chuyên nghiệp cho kỹ sư
+  mã: CO2001
+học kỳ: 231
+giảng viên: TS. Vũ A Q
+sinh viên:
+  - tên: Huỳnh Đ V
+    mssv: 2011111
+  - tên: Nguyễn D K
+    mssv: 2022222
+  - tên: Nguyễn H C
+    mssv: 2033333
+  - tên: Nguyễn D H
+    mssv: 2044444
+  - tên: Nguyễn H T H
+    mssv: 2055555
+fonts:
+  text: Latin Modern Roman      # or Times New Roman
+  monospace: Latin Modern Mono  # or Courier New
