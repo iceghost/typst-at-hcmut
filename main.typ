@@ -17,6 +17,10 @@
 #show raw: set text(font: fonts.at("monospace"))
 
 #set heading(numbering: "1.1.1")
+#show heading: it => {
+  it
+  v(.5em)
+}
 
 #import "/components/latex.typ"
 #show "LaTeX": latex.LaTeX
