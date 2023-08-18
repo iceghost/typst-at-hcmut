@@ -13,7 +13,7 @@
 #let m = yaml("/metadata.yml")
 #let fonts = m.at("fonts")
 
-#set text(font: fonts.at("text"))
+#set text(font: fonts.at("text"), lang: "vi")
 #show raw: set text(font: fonts.at("monospace"))
 
 #set heading(numbering: "1.1.1")
@@ -26,3 +26,6 @@
 #{ include "/contents/02-section-binh-thuong.typ" }
 #{ include "/contents/03-bang-bieu.typ" }
 #{ include "/contents/04-code.typ" }
+#{ include "/contents/05-chen-tai-lieu-tham-khao.typ" }
+#pagebreak()
+#bibliography("references.bib")
