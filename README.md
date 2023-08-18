@@ -12,4 +12,5 @@ Mục tiêu của template là trở thành một template mà bạn thực sự
 và có thể làm những thứ bạn muốn, không cần phải copy-paste code trên mạng.
 
 Template này được viết với nội dung như một bài hướng dẫn,
-các bạn có thể mở file [main.pdf] để đọc.
+các bạn có thể mở file [main.pdf](main.pdf) để đọc.
+
