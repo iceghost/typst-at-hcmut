@@ -16,7 +16,13 @@
 #set text(font: fonts.at("text"))
 #show raw: set text(font: fonts.at("monospace"))
 
+#set heading(numbering: "1.1.1")
+
+#import "/components/latex.typ"
+#show "LaTeX": latex.LaTeX
+
 #{ include "/contents/01-bia.typ" }
 #pagebreak()
-
-#lorem(100)
+#{ include "/contents/02-section-binh-thuong.typ" }
+#{ include "/contents/03-bang-bieu.typ" }
+#{ include "/contents/04-code.typ" }
