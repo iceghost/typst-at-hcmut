@@ -14,3 +14,8 @@ và có thể làm những thứ bạn muốn, không cần phải copy-paste co
 Template này được viết với nội dung như một bài hướng dẫn,
 các bạn có thể mở file [main.pdf](main.pdf) để đọc.
 
+## Contribute
+
+Để báo lỗi, hoặc đóng góp thêm cách mình có thể cải thiện template này,
+các bạn sử dụng tính năng [Discussion](https://github.com/iceghost/typst-at-hcmut/discussions)
+để tạo nguyện vọng nhé.
